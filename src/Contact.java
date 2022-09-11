@@ -5,6 +5,7 @@ public class Contact {
     private String phone_number;
 
     ArrayList<Contact> contactsList = new ArrayList<>();
+    ArrayList<String> cadenas = new ArrayList<>();
     public Contact() {
     }
 
@@ -33,16 +34,22 @@ public class Contact {
 
     }
 
-    public void modifyContact(Contact contact)
+    public void modifyContact(String name)
     {
-        if(contactsList.contains(contact)){
+        System.out.println("ENCONTRADO = " + findContact(name));
 
-        }
     }
 
-    public boolean findContact(Contact contact)
+    public int findContact(String name)
     {
-    return true;
+        for(int i=0; i<contactsList.size(); i++)
+        {
+            if(contactsList.get(i).getName() == name)
+            {
+                return i;
+            }
+        }
+        return -1;
     }
 
     public void printContactList()
