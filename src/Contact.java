@@ -40,6 +40,11 @@ public class Contact {
         }
     }
 
+    public boolean findContact(Contact contact)
+    {
+    return true;
+    }
+
     public void printContactList()
     {
         for(int i=0; i<contactsList.size(); i++)
