@@ -1,6 +1,4 @@
-import java.util.ArrayList;
-
-public class Contacts {
+public class Contact {
     private String name;
     private String phone_number;
 }
