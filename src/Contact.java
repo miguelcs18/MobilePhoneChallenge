@@ -4,6 +4,8 @@ public class Contact {
     private String name;
     private String phone_number;
 
+    ArrayList<Contact> contactsList = new ArrayList<>();
+
     public Contact(String name, String phone_number) {
         this.name = name;
         this.phone_number = phone_number;
@@ -23,5 +25,11 @@ public class Contact {
 
     public void setPhone_number(String phone_number) {
         this.phone_number = phone_number;
+    }
+
+    public void addContact(String name, String phone_number)
+    {
+        Contact contact = new Contact(name,phone_number);
+        contactsList.add(contact);
     }
 }
