@@ -55,7 +55,7 @@ public class Contact {
     {
         for(int i=0; i<contactsList.size(); i++)
         {
-            if(contactsList.get(i).getName() == name)
+            if(contactsList.get(i).getName().equals(name))
             {
                 return i;
             }
