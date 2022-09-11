@@ -63,6 +63,15 @@ public class Contact {
         return -1;
     }
 
+    public String queryContact(String name)
+    {
+        int index = findContact(name);
+        if(index>=0)
+        {
+            return "Name: " + contactsList.get(index).getName() + " Phone nnumber: " + contactsList.get(index).getPhone_number();
+        }
+        return "Contact not found in contact list";
+    }
 
     public void printContactList()
     {
