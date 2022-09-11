@@ -6,10 +6,9 @@ public class Contact {
 
     ArrayList<Contact> contactsList = new ArrayList<>();
 
-    public Contact(String name, String phone_number) {
-        this.name = name;
-        this.phone_number = phone_number;
+    public Contact() {
     }
+
 
     public String getName() {
         return name;
@@ -29,7 +28,19 @@ public class Contact {
 
     public void addContact(String name, String phone_number)
     {
-        Contact contact = new Contact(name,phone_number);
+        Contact contact = new Contact();
+        contact.setName(name);
+        contact.setPhone_number(phone_number);
         contactsList.add(contact);
+
+    }
+
+    public void printContactList()
+    {
+        for(int i=0; i<contactsList.size(); i++)
+        {
+            System.out.println("Nombre (" + i + ")= " + contactsList.get(i).getName() + " Number (" + i + ")= " + contactsList.get(i).getPhone_number());
+            System.out.println("------------------------------------------------------------------------------------------------------------");
+        }
     }
 }
