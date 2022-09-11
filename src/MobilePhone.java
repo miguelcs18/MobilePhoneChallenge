@@ -12,9 +12,13 @@ public class MobilePhone {
 
     contacto.modifyContact("Chapa","Chaparro","11111111");
 
+        contacto.removeContact("Chaparro");
+
         contacto.printContactList();
 
         System.out.println("Found contact = " + contacto.queryContact("Gaby") );
+
+        contacto.printContactList();
 
     }
 }

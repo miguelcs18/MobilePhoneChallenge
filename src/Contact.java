@@ -73,6 +73,20 @@ public class Contact {
         return "Contact not found in contact list";
     }
 
+    public void removeContact(String name)
+    {
+        int index = findContact(name);
+        if(index>=0)
+        {
+            contactsList.remove(index);
+            System.out.println("Contact with name " + name + " was removed successfully!");
+        }
+        else
+        {
+            System.out.println("Contact with name " + name + " not found in contact list");
+        }
+    }
+
     public void printContactList()
     {
         for(int i=0; i<contactsList.size(); i++)
