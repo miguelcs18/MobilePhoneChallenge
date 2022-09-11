@@ -10,10 +10,11 @@ public class MobilePhone {
 
     contacto.printContactList();
 
-    contacto.modifyContact("Miguel");
+    contacto.modifyContact("Chapa","Chaparro","11111111");
 
     //contacto.findContact("Chapa");
 
+        contacto.printContactList();
 
     }
 }

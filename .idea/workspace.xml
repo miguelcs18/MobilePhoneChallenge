@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fb01d88-cc01-4daa-8c69-a48f269ff0ef" name="Changes" comment="Add findContact method">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8fb01d88-cc01-4daa-8c69-a48f269ff0ef" name="Changes" comment="Add String to test and test modifyContact method">
       <change beforePath="$PROJECT_DIR$/src/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Contact.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MobilePhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MobilePhone.java" afterDir="false" />
     </list>
@@ -66,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662859587531</updated>
-      <workItem from="1662859590017" duration="6970000" />
+      <workItem from="1662859590017" duration="7586000" />
     </task>
     <task id="LOCAL-00001" summary="MobilePhone class created">
       <created>1662859887310</created>
@@ -152,7 +151,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662864967860</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add Logic to findContact method and test with ModifyContact method">
+      <created>1662866780587</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1662866780587</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Add String to test and test modifyContact method">
+      <created>1662866823733</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1662866823733</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +195,8 @@
     <MESSAGE value="Add workspace.xml to commit" />
     <MESSAGE value="Add modifyContact method" />
     <MESSAGE value="Add findContact method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add findContact method" />
+    <MESSAGE value="Add Logic to findContact method and test with ModifyContact method" />
+    <MESSAGE value="Add String to test and test modifyContact method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add String to test and test modifyContact method" />
   </component>
 </project>

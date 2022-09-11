@@ -34,9 +34,20 @@ public class Contact {
 
     }
 
-    public void modifyContact(String name)
+    public void modifyContact(String name, String newName, String newPhoneNumber)
     {
-        System.out.println("ENCONTRADO = " + findContact(name));
+        int index = findContact(name);
+        if(index >= 0)
+        {
+            Contact modifiedContact = new Contact();
+            modifiedContact.setName(newName);
+            modifiedContact.setPhone_number(newPhoneNumber);
+            contactsList.set(index,modifiedContact);
+        }
+        else
+        {
+            System.out.println("Contact not found in contact list");
+        }
 
     }
 
@@ -51,6 +62,7 @@ public class Contact {
         }
         return -1;
     }
+
 
     public void printContactList()
     {
