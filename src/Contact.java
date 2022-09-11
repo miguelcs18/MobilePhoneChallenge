@@ -5,10 +5,8 @@ public class Contact {
     private String phone_number;
 
     ArrayList<Contact> contactsList = new ArrayList<>();
-
     public Contact() {
     }
-
 
     public String getName() {
         return name;
@@ -33,6 +31,13 @@ public class Contact {
         contact.setPhone_number(phone_number);
         contactsList.add(contact);
 
+    }
+
+    public void modifyContact(Contact contact)
+    {
+        if(contactsList.contains(contact)){
+
+        }
     }
 
     public void printContactList()
