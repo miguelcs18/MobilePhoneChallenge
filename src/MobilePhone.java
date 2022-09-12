@@ -20,5 +20,13 @@ public class MobilePhone {
 
         contacto.printContactList();
 
+        System.out.println("1--- Print contact list");
+        System.out.println("2--- Add contact to list");
+        System.out.println("3--- Search contact in list");
+        System.out.println("4--- Modify contact in list");
+        System.out.println("5--- Delete contact in list");
+        System.out.println("6--- Quit program");
+
+
     }
 }
