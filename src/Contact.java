@@ -5,7 +5,6 @@ public class Contact {
     private String phone_number;
 
     ArrayList<Contact> contactsList = new ArrayList<>();
-    ArrayList<String> cadenas = new ArrayList<>();
     public Contact() {
     }
 
