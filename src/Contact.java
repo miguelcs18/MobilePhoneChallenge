@@ -30,7 +30,15 @@ public class Contact {
         Contact contact = new Contact();
         contact.setName(name);
         contact.setPhone_number(phone_number);
-        contactsList.add(contact);
+        int index = findContact(name);
+        if(index == -1 ) {
+
+            contactsList.add(contact);
+        }
+        else
+        {
+            System.out.println("Contact already exists in index (" + index + ")" );
+        }
 
     }
 
@@ -92,7 +100,7 @@ public class Contact {
         for(int i=0; i<contactsList.size(); i++)
         {
             System.out.println("Nombre (" + i + ")= " + contactsList.get(i).getName() + " Number (" + i + ")= " + contactsList.get(i).getPhone_number());
-            System.out.println("------------------------------------------------------------------------------------------------------------");
         }
+        System.out.println("------------------------------------------------------------------------------------------------------------");
     }
 }
