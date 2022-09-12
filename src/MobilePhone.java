@@ -23,12 +23,13 @@ public class MobilePhone {
 
         Scanner scanner = new Scanner(System.in);
 
+        contacto.printMenuOptions();
         int menuOption = 1;
         while(menuOption != 7)
         {
             System.out.println("Choose option");
-            contacto.printMenuOptions();
             menuOption = scanner.nextInt();
+            scanner.nextLine();
 
             switch (menuOption)
             {
@@ -36,22 +37,22 @@ public class MobilePhone {
                     System.out.println("Print contact List");
                     break;
                 case 2:
-                    System.out.println("Print contact List");
+                    System.out.println("Add contact to list");
                     break;
                 case 3:
-                    System.out.println("Print contact List");
+                    System.out.println("Search contact in List");
                     break;
                 case 4:
-                    System.out.println("Print contact List");
+                    System.out.println("Modify contact in List");
                     break;
                 case 5:
-                    System.out.println("Print contact List");
+                    System.out.println("Delete contact in List");
                     break;
                 case 6:
-                    System.out.println("Print contact List");
+                    System.out.println("Show menu options");
                     break;
                 case 7:
-                    System.out.println("Print contact List");
+                    System.out.println("Quit");
                     break;
                 default:
                     break;
