@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fb01d88-cc01-4daa-8c69-a48f269ff0ef" name="Changes" comment="Test Arraylist removed">
+    <list default="true" id="8fb01d88-cc01-4daa-8c69-a48f269ff0ef" name="Changes" comment="Menu options added.">
       <change beforePath="$PROJECT_DIR$/src/MobilePhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MobilePhone.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662859587531</updated>
-      <workItem from="1662859590017" duration="10647000" />
+      <workItem from="1662859590017" duration="11127000" />
     </task>
     <task id="LOCAL-00001" summary="MobilePhone class created">
       <created>1662859887310</created>
@@ -206,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662990192624</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Menu options added.">
+      <created>1662990609037</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1662990609037</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,6 +251,7 @@
     <MESSAGE value="rmoveContact methos and logic to remove contact added." />
     <MESSAGE value="Add logic for validation of contact already in contact list if not add contact to addContact method" />
     <MESSAGE value="Test Arraylist removed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test Arraylist removed" />
+    <MESSAGE value="Menu options added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Menu options added." />
   </component>
 </project>
