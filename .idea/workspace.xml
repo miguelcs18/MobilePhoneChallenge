@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fb01d88-cc01-4daa-8c69-a48f269ff0ef" name="Changes" comment="Add option 6 to show menu options to menu">
-      <change beforePath="$PROJECT_DIR$/src/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Contact.java" afterDir="false" />
+    <list default="true" id="8fb01d88-cc01-4daa-8c69-a48f269ff0ef" name="Changes" comment="Create method printMenuOptions">
       <change beforePath="$PROJECT_DIR$/src/MobilePhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MobilePhone.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662859587531</updated>
-      <workItem from="1662859590017" duration="11504000" />
+      <workItem from="1662859590017" duration="11814000" />
     </task>
     <task id="LOCAL-00001" summary="MobilePhone class created">
       <created>1662859887310</created>
@@ -235,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662991310318</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Create method printMenuOptions">
+      <created>1662991484540</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1662991484540</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,6 +283,7 @@
     <MESSAGE value="Remove unused import" />
     <MESSAGE value="Add Scanner to read menuOption from user" />
     <MESSAGE value="Add option 6 to show menu options to menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add option 6 to show menu options to menu" />
+    <MESSAGE value="Create method printMenuOptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create method printMenuOptions" />
   </component>
 </project>

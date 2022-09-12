@@ -22,10 +22,42 @@ public class MobilePhone {
 
 
         Scanner scanner = new Scanner(System.in);
-        int menuOption = scanner.nextInt();
 
+        int menuOption = 1;
+        while(menuOption != 7)
+        {
+            System.out.println("Choose option");
+            contacto.printMenuOptions();
+            menuOption = scanner.nextInt();
 
+            switch (menuOption)
+            {
+                case 1:
+                    System.out.println("Print contact List");
+                    break;
+                case 2:
+                    System.out.println("Print contact List");
+                    break;
+                case 3:
+                    System.out.println("Print contact List");
+                    break;
+                case 4:
+                    System.out.println("Print contact List");
+                    break;
+                case 5:
+                    System.out.println("Print contact List");
+                    break;
+                case 6:
+                    System.out.println("Print contact List");
+                    break;
+                case 7:
+                    System.out.println("Print contact List");
+                    break;
+                default:
+                    break;
+            }
 
+        }
 
     }
 }
