@@ -21,6 +21,7 @@ public class MobilePhone {
         int menuOption = 1;
         while(menuOption != 7)
         {
+            printMenuOptions();
             System.out.println("Choose option");
             menuOption = scanner.nextInt();
             scanner.nextLine();

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fb01d88-cc01-4daa-8c69-a48f269ff0ef" name="Changes" comment="Add method removeContact to MobilePhone class and call to menu">
+    <list default="true" id="8fb01d88-cc01-4daa-8c69-a48f269ff0ef" name="Changes" comment="Enhance contact list printing with lines as break lines and add message when contact list is empty">
       <change beforePath="$PROJECT_DIR$/src/MobilePhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MobilePhone.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +66,7 @@
       <updated>1662859587531</updated>
       <workItem from="1662859590017" duration="17426000" />
       <workItem from="1663003687420" duration="1043000" />
-      <workItem from="1663006249466" duration="5076000" />
+      <workItem from="1663006249466" duration="5494000" />
     </task>
     <task id="LOCAL-00001" summary="MobilePhone class created">
       <created>1662859887310</created>
@@ -292,7 +292,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663033604497</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Add method printMenuOptions to MobilePhone class and call to menu">
+      <created>1663034001537</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1663034001537</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Enhance contact list printing with lines as break lines and add message when contact list is empty">
+      <created>1663034223985</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1663034223985</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,8 +324,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add Logic to add contacts and method printContactList" />
-    <MESSAGE value="Add some objects to test methods addContact and printContactList" />
     <MESSAGE value="Add workspace.xml to commit" />
     <MESSAGE value="Add modifyContact method" />
     <MESSAGE value="Add findContact method" />
@@ -335,6 +347,8 @@
     <MESSAGE value="Add method queryContact to search a contact" />
     <MESSAGE value="Add method modifyContact to MobilePhone class and call to menu" />
     <MESSAGE value="Add method removeContact to MobilePhone class and call to menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add method removeContact to MobilePhone class and call to menu" />
+    <MESSAGE value="Add method printMenuOptions to MobilePhone class and call to menu" />
+    <MESSAGE value="Enhance contact list printing with lines as break lines and add message when contact list is empty" />
+    <option name="LAST_COMMIT_MESSAGE" value="Enhance contact list printing with lines as break lines and add message when contact list is empty" />
   </component>
 </project>
