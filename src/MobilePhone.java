@@ -58,6 +58,9 @@ public class MobilePhone {
                     break;
                 case 5:
                     System.out.println("Delete contact in List");
+                    System.out.println("Type name of contact to delete and press enter");
+                    name = scanner.nextLine();
+                    removeContact(name);
                     break;
                 case 6:
                     System.out.println("Show menu options");
@@ -90,5 +93,9 @@ public class MobilePhone {
    public void modifyContact(String name, String newName, String phoneNumber)
    {
        contacto.modifyContact(name, newName, phoneNumber);
+   }
+   public void removeContact(String name)
+   {
+       contacto.removeContact(name);
    }
 }
