@@ -64,7 +64,7 @@ public class MobilePhone {
                     break;
                 case 6:
                     System.out.println("Show menu options");
-                    //printMenuOptions();
+                    printMenuOptions();
                     break;
                 case 7:
                     System.out.println("Quit");
@@ -97,5 +97,9 @@ public class MobilePhone {
    public void removeContact(String name)
    {
        contacto.removeContact(name);
+   }
+   public void printMenuOptions()
+   {
+       contacto.printMenuOptions();
    }
 }
