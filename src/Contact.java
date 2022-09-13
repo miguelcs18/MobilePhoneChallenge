@@ -99,11 +99,16 @@ public class Contact {
 
     public void printContactList()
     {
-        for(int i=0; i<contactsList.size(); i++)
-        {
-            System.out.println("Nombre (" + i + ")= " + contactsList.get(i).getName() + " Number (" + i + ")= " + contactsList.get(i).getPhone_number());
+        if(contactsList.size()>0){
+            System.out.println("------------------------------------------------------------------------------------------------------------");
+            for(int i=0; i<contactsList.size(); i++)
+            {
+                System.out.println("Nombre (" + i + ")= " + contactsList.get(i).getName() + " Number (" + i + ")= " + contactsList.get(i).getPhone_number());
+            }
+            System.out.println("------------------------------------------------------------------------------------------------------------");
         }
-        System.out.println("------------------------------------------------------------------------------------------------------------");
+        else
+            System.out.println("Contact list is empty");
     }
 
     public void printMenuOptions()
