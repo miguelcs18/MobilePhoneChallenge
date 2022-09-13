@@ -1,29 +1,23 @@
 import java.util.Scanner;
 
 public class MobilePhone {
-    public static void main(String[] args) {
     Contact contacto = new Contact();
+    public static void main(String[] args) {
 
-    contacto.addContact("Gaby","4431333003");
-    contacto.addContact("Miguel","4431333003");
-    contacto.addContact("Chapa","1234567890");
+     MobilePhone mp = new MobilePhone();
 
-    contacto.printContactList();
+        mp.optionsMenu();
 
-    contacto.modifyContact("Chapa","Chaparro","11111111");
 
-        contacto.removeContact("Chaparro");
+    }
 
-        contacto.printContactList();
-
-        System.out.println("Found contact = " + contacto.queryContact("Gaby") );
-
-        contacto.printContactList();
+    public void optionsMenu()
+    {
 
 
         Scanner scanner = new Scanner(System.in);
 
-        contacto.printMenuOptions();
+
         int menuOption = 1;
         while(menuOption != 7)
         {
@@ -35,9 +29,16 @@ public class MobilePhone {
             {
                 case 1:
                     System.out.println("Print contact List");
+                    printContactList();
+                    //prueba();
                     break;
                 case 2:
                     System.out.println("Add contact to list");
+                    System.out.println("Type name and press enter");
+                    String name = scanner.nextLine();
+                    System.out.println("Type phone number and press enter");
+                    String phoneNumber = scanner.nextLine();
+                    addContact(name,phoneNumber);
                     break;
                 case 3:
                     System.out.println("Search contact in List");
@@ -50,6 +51,7 @@ public class MobilePhone {
                     break;
                 case 6:
                     System.out.println("Show menu options");
+                    //printMenuOptions();
                     break;
                 case 7:
                     System.out.println("Quit");
@@ -61,4 +63,15 @@ public class MobilePhone {
         }
 
     }
+
+    public void printContactList()
+    {
+        contacto.printContactList();
+    }
+
+    public void addContact(String name, String phoneNumber)
+    {
+        contacto.addContact(name,phoneNumber);
+    }
+
 }

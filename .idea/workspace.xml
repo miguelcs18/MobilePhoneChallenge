@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fb01d88-cc01-4daa-8c69-a48f269ff0ef" name="Changes" comment="Add menu option logic">
+    <list default="true" id="8fb01d88-cc01-4daa-8c69-a48f269ff0ef" name="Changes" comment="nextLine() method added to break line">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Contact.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MobilePhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MobilePhone.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,17 +33,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="MobilePhone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MobilePhone" />
@@ -65,7 +66,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662859587531</updated>
-      <workItem from="1662859590017" duration="12868000" />
+      <workItem from="1662859590017" duration="17426000" />
+      <workItem from="1663003687420" duration="1043000" />
+      <workItem from="1663006249466" duration="2844000" />
     </task>
     <task id="LOCAL-00001" summary="MobilePhone class created">
       <created>1662859887310</created>
@@ -249,7 +252,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662991806295</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Make menu options appear just once">
+      <created>1662993421835</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1662993421835</updated>
+    </task>
+    <task id="LOCAL-00028" summary="nextLine() method added to break line">
+      <created>1662993538170</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1662993538172</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,8 +284,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Contacts class created" />
-    <MESSAGE value="Adding member variables" />
     <MESSAGE value="Change name of class Contacts to Contact" />
     <MESSAGE value="Generate constructor and instantiate objects" />
     <MESSAGE value="Add getters and setters" />
@@ -292,6 +307,8 @@
     <MESSAGE value="Add option 6 to show menu options to menu" />
     <MESSAGE value="Create method printMenuOptions" />
     <MESSAGE value="Add menu option logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add menu option logic" />
+    <MESSAGE value="Make menu options appear just once" />
+    <MESSAGE value="nextLine() method added to break line" />
+    <option name="LAST_COMMIT_MESSAGE" value="nextLine() method added to break line" />
   </component>
 </project>
