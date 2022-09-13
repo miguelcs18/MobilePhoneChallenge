@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Contact {
     private String name;
-    private String phone_number;
+    private String phoneNumber;
 
     ArrayList<Contact> contactsList = new ArrayList<>();
     public Contact() {
@@ -17,11 +17,11 @@ public class Contact {
     }
 
     private String getPhoneNumber() {
-        return phone_number;
+        return phoneNumber;
     }
 
     private void setPhoneNumber(String phone_number) {
-        this.phone_number = phone_number;
+        this.phoneNumber = phone_number;
     }
 
     public void addContact(String name, String phone_number)

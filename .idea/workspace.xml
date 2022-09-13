@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fb01d88-cc01-4daa-8c69-a48f269ff0ef" name="Changes" comment="Hide or encapsulate Setters and Getters and method findContact which is used by the class Contact">
+    <list default="true" id="8fb01d88-cc01-4daa-8c69-a48f269ff0ef" name="Changes" comment="Refactor getPhone_number to getPhoneNumber to meet java conventions">
       <change beforePath="$PROJECT_DIR$/src/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Contact.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +66,7 @@
       <updated>1662859587531</updated>
       <workItem from="1662859590017" duration="17426000" />
       <workItem from="1663003687420" duration="1043000" />
-      <workItem from="1663006249466" duration="6154000" />
+      <workItem from="1663006249466" duration="6832000" />
     </task>
     <task id="LOCAL-00001" summary="MobilePhone class created">
       <created>1662859887310</created>
@@ -320,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663034742366</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Refactor getPhone_number to getPhoneNumber to meet java conventions">
+      <created>1663034995768</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1663034995768</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,7 +357,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add findContact method" />
     <MESSAGE value="Add Logic to findContact method and test with ModifyContact method" />
     <MESSAGE value="Add String to test and test modifyContact method" />
     <MESSAGE value="Logic to modifyContact method and test from main class" />
@@ -375,6 +381,7 @@
     <MESSAGE value="Enhance contact list printing with lines as break lines and add message when contact list is empty" />
     <MESSAGE value="Handle showing list options every time and actions ends." />
     <MESSAGE value="Hide or encapsulate Setters and Getters and method findContact which is used by the class Contact" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hide or encapsulate Setters and Getters and method findContact which is used by the class Contact" />
+    <MESSAGE value="Refactor getPhone_number to getPhoneNumber to meet java conventions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor getPhone_number to getPhoneNumber to meet java conventions" />
   </component>
 </project>
