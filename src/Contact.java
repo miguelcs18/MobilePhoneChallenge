@@ -72,10 +72,11 @@ public class Contact {
 
     public String queryContact(String name)
     {
+
         int index = findContact(name);
         if(index>=0)
         {
-            return "Name: " + contactsList.get(index).getName() + " Phone nnumber: " + contactsList.get(index).getPhone_number();
+            return "Name: " + contactsList.get(index).getName() + " Phone number: " + contactsList.get(index).getPhone_number();
         }
         return "Contact not found in contact list";
     }

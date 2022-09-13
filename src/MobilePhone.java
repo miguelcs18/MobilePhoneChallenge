@@ -42,6 +42,9 @@ public class MobilePhone {
                     break;
                 case 3:
                     System.out.println("Search contact in List");
+                    System.out.println("Type name to search contact and press enter");
+                    name = scanner.nextLine();
+                    queryContact(name);
                     break;
                 case 4:
                     System.out.println("Modify contact in List");
@@ -72,6 +75,10 @@ public class MobilePhone {
     public void addContact(String name, String phoneNumber)
     {
         contacto.addContact(name,phoneNumber);
+    }
+    public void queryContact(String name)
+    {
+        System.out.println(contacto.queryContact(name));
     }
 
 }
