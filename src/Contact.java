@@ -50,6 +50,8 @@ public class Contact {
             modifiedContact.setName(newName);
             modifiedContact.setPhone_number(newPhoneNumber);
             contactsList.set(index,modifiedContact);
+            System.out.println("Contact name changed from name  " + name + " to " + newName
+                    + " and phone number " + newPhoneNumber);
         }
         else
         {

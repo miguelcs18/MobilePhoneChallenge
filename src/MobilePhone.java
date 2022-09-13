@@ -48,6 +48,13 @@ public class MobilePhone {
                     break;
                 case 4:
                     System.out.println("Modify contact in List");
+                    System.out.println("Type name to modify contact and press enter");
+                    name = scanner.nextLine();
+                    System.out.println("Type new name of contact and press enter");
+                    String newName= scanner.nextLine();
+                    System.out.println("Type new phone number to modify and press enter");
+                    phoneNumber = scanner.nextLine();
+                    modifyContact(name, newName, phoneNumber);
                     break;
                 case 5:
                     System.out.println("Delete contact in List");
@@ -80,5 +87,8 @@ public class MobilePhone {
     {
         System.out.println(contacto.queryContact(name));
     }
-
+   public void modifyContact(String name, String newName, String phoneNumber)
+   {
+       contacto.modifyContact(name, newName, phoneNumber);
+   }
 }

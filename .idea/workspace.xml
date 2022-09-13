@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fb01d88-cc01-4daa-8c69-a48f269ff0ef" name="Changes" comment="Add methods printContactList() and addContact() to class MobilePhone and test them">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8fb01d88-cc01-4daa-8c69-a48f269ff0ef" name="Changes" comment="Add method queryContact to search a contact">
       <change beforePath="$PROJECT_DIR$/src/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Contact.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MobilePhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MobilePhone.java" afterDir="false" />
     </list>
@@ -68,7 +67,7 @@
       <updated>1662859587531</updated>
       <workItem from="1662859590017" duration="17426000" />
       <workItem from="1663003687420" duration="1043000" />
-      <workItem from="1663006249466" duration="3839000" />
+      <workItem from="1663006249466" duration="4327000" />
     </task>
     <task id="LOCAL-00001" summary="MobilePhone class created">
       <created>1662859887310</created>
@@ -273,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663031797586</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Add method queryContact to search a contact">
+      <created>1663032751286</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1663032751287</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,7 +297,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Generate constructor and instantiate objects" />
     <MESSAGE value="Add getters and setters" />
     <MESSAGE value="Create contact ArrayList and addContacts method" />
     <MESSAGE value="Add Logic to add contacts and method printContactList" />
@@ -316,6 +321,7 @@
     <MESSAGE value="Make menu options appear just once" />
     <MESSAGE value="nextLine() method added to break line" />
     <MESSAGE value="Add methods printContactList() and addContact() to class MobilePhone and test them" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add methods printContactList() and addContact() to class MobilePhone and test them" />
+    <MESSAGE value="Add method queryContact to search a contact" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add method queryContact to search a contact" />
   </component>
 </project>
