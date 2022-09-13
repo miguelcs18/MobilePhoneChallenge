@@ -16,11 +16,11 @@ public class Contact {
         this.name = name;
     }
 
-    private String getPhone_number() {
+    private String getPhoneNumber() {
         return phone_number;
     }
 
-    private void setPhone_number(String phone_number) {
+    private void setPhoneNumber(String phone_number) {
         this.phone_number = phone_number;
     }
 
@@ -28,7 +28,7 @@ public class Contact {
     {
         Contact contact = new Contact();
         contact.setName(name);
-        contact.setPhone_number(phone_number);
+        contact.setPhoneNumber(phone_number);
         int index = findContact(name);
         if(index == -1 ) {
 
@@ -48,7 +48,7 @@ public class Contact {
         {
             Contact modifiedContact = new Contact();
             modifiedContact.setName(newName);
-            modifiedContact.setPhone_number(newPhoneNumber);
+            modifiedContact.setPhoneNumber(newPhoneNumber);
             contactsList.set(index,modifiedContact);
             System.out.println("Contact name changed from name  " + name + " to " + newName
                     + " and phone number " + newPhoneNumber);
@@ -78,7 +78,7 @@ public class Contact {
         int index = findContact(name);
         if(index>=0)
         {
-            return "Name: " + contactsList.get(index).getName() + " Phone number: " + contactsList.get(index).getPhone_number();
+            return "Name: " + contactsList.get(index).getName() + " Phone number: " + contactsList.get(index).getPhoneNumber();
         }
         return "Contact not found in contact list";
     }
@@ -103,7 +103,7 @@ public class Contact {
             System.out.println("------------------------------------------------------------------------------------------------------------");
             for(int i=0; i<contactsList.size(); i++)
             {
-                System.out.println("Nombre (" + i + ")= " + contactsList.get(i).getName() + " Number (" + i + ")= " + contactsList.get(i).getPhone_number());
+                System.out.println("Nombre (" + i + ")= " + contactsList.get(i).getName() + " Number (" + i + ")= " + contactsList.get(i).getPhoneNumber());
             }
             System.out.println("------------------------------------------------------------------------------------------------------------");
         }
